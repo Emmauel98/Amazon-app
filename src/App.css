@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: white;
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bookBox{
+  width: 100%;
+  display: grid;
+  gap: 1;
+  object-fit: cover;
+  margin: 0.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.book{
+  width: 90vw;
+  max-width: 1170px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  object-fit: cover;
+  margin-left: 0.5rem;
+  background: #F8F8F8;
+  border-radius: 0.2rem;
+  position: relative;
+}
+.book img{
+  width: 40%;
+  padding: 0.5rem ;
+  object-fit: cover;
+}
+.book h3{
+  font-size: 0.1rem;
+  font-family: Consolas;
+  text-align: left ;
+  padding-top: 0.8rem;
+}
+.book h5{
+  padding-top: 0.6rem;
+  font-family: Consolas;
+}
+.book p{
+  width: 2rem;
+  height: 2rem;
+  font-size:1rem;
+  font-weight: 600;
+  padding: 0.5rem 0rem 0rem 0rem;
+  text-align: center ;
+  font-family: Consolas;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #B84B33;
+  color: white ;
+  border-top-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem ;
+}
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+  color: white;
+  background: blue ;
+}
+.navBar h3{
+  font-family: Segoe UI;
+}
+.navBar p{
+  font-weight: 600;
+}
+.signIn{
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.searchBar{
+  background: blue;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.searchBar input{
+  width: 80vw;
+  height: 9vh;
+  margin-left: 0.8rem;
+  border-radius: 0.5rem;
+  border: none ;
+}
+.searchBar button{
+  background: red ;
+  border: none;
+  position: relative;
+  right: 1.8rem;
+  bottom: -0.37rem;
+  width: 15vw;
+  height: 9.2vh;
+  border-radius: 0.5rem;
+}
+.searchBar span{
+  font-weight: 600;
+}
+@media only screen and (min-width: '760px'){
+  .bookBox{
+    grid-template-columns: repeat(3,1fr);
+    .book{
+      display: block;
+    }
   }
 }

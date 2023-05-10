@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import books from './books.js';
+import Book from './components/book.js';
+import Header from './components/header.js';
 
-function App() {
+function BookList(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Edited by olami.js
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
 
-export default App;
+      <Header logo="Amazon" />  
+      
+      
+        {
+          books.map((book,index)=>{
+            return (
+            <Book key= {book.id} {...book} number={index}></Book>
+            );
+          })
+        }
+        
+      
+
+    </div>
+    
+        );
+};
+
+export default BookList;
