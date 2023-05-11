@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Amazon Best Seller App with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## To install the dependencies i.e node_module folder, run;
+
+`npm install`
 
 ## Available Scripts
 
