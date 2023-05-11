@@ -45,6 +45,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+![mobile](https://github.com/Emmauel98/Amazon-app/assets/103376339/bdf2d53b-02fc-4676-987a-285640e5667d)
+
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
