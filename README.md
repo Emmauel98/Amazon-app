@@ -45,7 +45,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Project preview
 
-![mobile](https://github.com/Emmauel98/Amazon-app/assets/103376339/bdf2d53b-02fc-4676-987a-285640e5667d)
+![mobile](https://github.com/Emmauel98/Amazon-app/assets/103376339/bdf2d53b-02fc-4676-987a-285640e5667d)         
+![mobile (1)](https://github.com/Emmauel98/Amazon-app/assets/103376339/93ff9121-a67a-433a-add1-0f0c89ccdf62)
 
 ## Learn More
 
